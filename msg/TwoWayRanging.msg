@@ -1,7 +1,7 @@
 # Enum NLOS
-NLOS_FALSE_IS_LOS=0
-NLOS_TRUE_IS_NLOS=1
-NLOS_UNKNOWN=255
+uint8 NLOS_FALSE_IS_LOS=0
+uint8 NLOS_TRUE_IS_NLOS=1
+uint8 NLOS_UNKNOWN=255
 
 # ENUM STATUS: UWB General
 uint8 STATUS_OK = 0
@@ -49,7 +49,7 @@ uint32 distance # cm
 float32 aoa_azimuth
 uint8 aoa_azimuth_fom
 float32 aoa_elevation
-uint aoa_elevation_fom
+uint8 aoa_elevation_fom
 float32 aoa_destination_azimuth
 uint8 aoa_destination_azimuth_fom
 float32 aoa_destination_elevation
@@ -59,4 +59,4 @@ uint8 rssi
 float32 rssi_rx1
 float32 rssi_rx2
 uint8 number_of_pdoa_measurements
-PhaseDifferenceOfArrival pdoa_measurements[]
+PhaseDifferenceOfArrival[] pdoa_measurements
