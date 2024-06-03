@@ -26,4 +26,4 @@ bool authenticated 									# Authentication running or not
 
 #DownLinkTimeDifferenceOfArrival data[] (TODO)
 #OneWayRanging data (TODO)
-TwoWayRanging data
+TwoWayRanging[] data
