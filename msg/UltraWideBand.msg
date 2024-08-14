@@ -24,6 +24,6 @@ uint8 mac_address_indicator 						# Length of mac address indicator
 uint8 measurements 									# Number of ranging measurements
 bool authenticated 									# Authentication running or not
 
-#DownLinkTimeDifferenceOfArrival data[] (TODO)
+DownLinkTimeDifferenceOfArrival[] dl_tdoa_data
 #OneWayRanging data (TODO)
-TwoWayRanging[] data
+TwoWayRanging[] two_way_data
