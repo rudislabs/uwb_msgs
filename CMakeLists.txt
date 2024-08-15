@@ -16,7 +16,9 @@ set(msg_files
   "msg/PhaseDifferenceOfArrival.msg"
   "msg/TwoWayRanging.msg"
   "msg/DownLinkTimeDifferenceOfArrival.msg"
-  "msg/UltraWideBand.msg"
+  "msg/UltraWideBandRanging.msg"
+  "msg/UltraWideBandPose.msg"
+  "msg/UltraWideBandPoses.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

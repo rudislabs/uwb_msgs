@@ -14,16 +14,8 @@ uint8 RANGING_TYPE_OWR_AOA = 3
 uint8 MAC_ADDRESS_INDICATOR_SHORT_ADDRESS=0 		# 2 byte address
 uint8 MAC_ADDRESS_INDICATOR_EXTENDED_ADDRESS=1 		# 4 byte address
 
+uint64 mac_address                                  # Mac address of sender
+uint8 mac_address_indicator 						# Length of mac address indicator
 geometry_msgs/PoseWithCovariance pose_covariance	# Calculated pose covariance
 uint8 covariance_type 								# Covariance type
 uint8 ranging_type 									# Ranging Measurement type
-uint32 session_id 									# Session id for ranging
-uint32 session_sequence 							# Sequence number in session
-uint32 ranging_interval 							# Ranging interval in msec
-uint8 mac_address_indicator 						# Length of mac address indicator
-uint8 measurements 									# Number of ranging measurements
-bool authenticated 									# Authentication running or not
-
-DownLinkTimeDifferenceOfArrival[] dl_tdoa_data
-#OneWayRanging data (TODO)
-TwoWayRanging[] two_way_data
