@@ -46,17 +46,17 @@ uint8 nlos
 uint64 mac_address
 uint8 status
 uint32 distance # cm
-float32 aoa_azimuth
+uint16 aoa_azimuth # Q9.7
 uint8 aoa_azimuth_fom
-float32 aoa_elevation
+uint16 aoa_elevation # Q9.7
 uint8 aoa_elevation_fom
-float32 aoa_destination_azimuth
+uint16 aoa_destination_azimuth # Q9.7
 uint8 aoa_destination_azimuth_fom
-float32 aoa_destination_elevation
+uint16 aoa_destination_elevation # Q9.7
 uint8 aoa_destination_elevation_fom
 uint8 slot_index
 uint8 rssi
-float32 rssi_rx1
-float32 rssi_rx2
+uint16 rssi_rx1 # Q8.8
+uint16 rssi_rx2 # Q8.8
 uint8 number_of_pdoa_measurements
 PhaseDifferenceOfArrival[] pdoa_measurements

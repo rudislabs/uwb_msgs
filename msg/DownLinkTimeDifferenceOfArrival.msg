@@ -48,9 +48,9 @@ uint8 message_type
 uint16 block_index
 uint8 round_index
 uint8 nlos
-float32 aoa_azimuth
+uint16 aoa_azimuth # Q9.7
 uint8 aoa_azimuth_fom
-float32 aoa_elevation
+uint16 aoa_elevation # Q9.7
 uint8 aoa_elevation_fom
 uint8 rssi
 uint64 tx_timestamp
