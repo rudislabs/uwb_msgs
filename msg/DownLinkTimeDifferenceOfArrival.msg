@@ -3,6 +3,10 @@ uint8 NLOS_FALSE_IS_LOS=0
 uint8 NLOS_TRUE_IS_NLOS=1
 uint8 NLOS_UNKNOWN=255
 
+# Enum TX timestamp type
+uint8 TX_TIMESTAMP_LOCAL_TIME_BASE=0
+uint8 TX_TIMESTAMP_COMMON_TIME_BASE=1
+
 # ENUM STATUS: UWB General
 uint8 STATUS_OK = 0
 uint8 STATUS_REJECTED = 1
@@ -45,6 +49,7 @@ uint8 STATUS_ERROR_DL_TDOA_DEVICE_ADDRESS_NOT_MATCHING_IN_REPLY_TIME_LIST = 42
 uint64 mac_address
 uint8 status
 uint8 message_type
+uint8 tx_timestamp_type
 uint16 block_index
 uint8 round_index
 uint8 nlos
