@@ -66,5 +66,5 @@ uint32 initiator_reply_time
 uint32 responder_reply_time
 uint16 initiator_responder_tof
 sensor_msgs/NavSatFix[<=1] navsat_location
-uint8[<=10] relative_location
+geometry_msgs/Vector3[<=1] relative_location
 uint8[<=255] active_ranging_rounds
