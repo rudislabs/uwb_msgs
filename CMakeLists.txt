@@ -13,7 +13,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 set(msg_files
-  "msg/PhaseDifferenceOfArrival.msg"
+  "msg/RxAntennaEntry.msg"
   "msg/TwoWayRanging.msg"
   "msg/DownLinkTimeDifferenceOfArrival.msg"
   "msg/UltraWideBandRanging.msg"
