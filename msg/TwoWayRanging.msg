@@ -56,7 +56,4 @@ uint16 aoa_destination_elevation # Q9.7
 uint8 aoa_destination_elevation_fom
 uint8 slot_index
 uint8 rssi
-uint16 rssi_rx1 # Q8.8
-uint16 rssi_rx2 # Q8.8
-uint8 number_of_pdoa_measurements
-PhaseDifferenceOfArrival[] pdoa_measurements
+RxAntennaEntry[] rx_entries
